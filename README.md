@@ -1,0 +1,2 @@
+# MongoDB $in operator with empty array returns no results
+This repository demonstrates a common MongoDB query error: using the `$in` operator with an empty array.  The query returns no results, even when the field exists in the documents.  The solution showcases the proper way to handle this scenario, ensuring that the query functions as intended.
